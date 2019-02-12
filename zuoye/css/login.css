@@ -1,0 +1,108 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size: 12px;}
+input,a{outline:none;}
+
+html{font-size: 26.7vw;}
+
+header{
+    width: 100%;
+    height: 1.06rem;
+    background:url(../img/bg.6837f67.png) center/cover;
+    position: fixed;
+    top:0;
+    position: relative;
+    padding-left:0.2rem;
+    padding-top:0.5rem;
+}
+    #touxiang{
+        width: 0.68rem;
+        height: 0.68rem;
+        background: url(img/tou.png)no-repeat center/cover;
+        border:1px solid #fff;
+        border-radius:50%;
+        float: left;
+    }
+    #user{
+        float: left;
+        margin-left:0.20rem; 
+        margin-top:0.26rem; 
+        
+    }
+    #user a{
+        font-size:0.16rem; 
+        color: #fff;
+    }
+
+
+
+nav{
+    width: 100%;
+    height: 0.80rem;
+    position: fixed;
+    top: 1.56rem;
+    display: flex;
+    justify-content: space-around;
+}
+    .dingpiao{
+        width: 0.52rem;
+        height:0.80rem;
+    }
+    .dingpiao_img{
+        width: 0.22rem;
+        height: 0.22rem;
+        margin-left:0.14rem;
+        margin-top:0.18rem
+    }
+    .dingpiao_txt{
+        font-size: 0.12rem;
+        color: #94979b;  
+        margin-top:0.05rem; 
+    }
+
+
+section{
+    margin-top:0.1rem; 
+    width: 100%;
+    height: 1.50rem;
+    position: fixed;
+    top:2.36rem;
+}
+    .details{
+        display: block;
+        width: 100%;
+        height: 0.49rem;
+        border-bottom: 0.01rem solid #f6f6f6;
+        overflow: hidden;
+    }
+        .details_img{
+            width: 0.2rem;
+            height: 0.2rem;
+            margin-left:0.15rem;
+            margin-top:0.17rem;  
+            float: left;
+        }
+        .details_txt{
+            width: 0.75rem;
+            height: 0.49rem;
+            line-height:0.50rem;
+            text-align: center;
+            float: left;
+            font-size:0.14rem; 
+        }
+        .icon-more{
+            float: right;
+            font-size: 0.14rem; 
+            margin-top:0.20rem;
+            margin-right:0.16rem;  
+        }
+        .details_txt2{
+            float: left;
+            font-size: 0.14rem;
+            margin-top:0.16rem;
+            margin-left:1.8rem;
+        }

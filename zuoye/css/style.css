@@ -1,0 +1,176 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size: 12px;}
+input,a{outline:none;}
+
+html{font-size: 26.7vw;}
+
+header{
+    height:2.10rem;
+    width: 100%;
+    position: fixed;
+    top:0;
+    position: relative;
+}
+    #chengshi{
+        display: block;
+        width:0.70rem;
+        height:0.30rem;
+        background: #000;
+        border-radius: 0.15rem;
+        opacity: .5;
+        text-align: center;
+        position: absolute;
+        top: 0.18rem;left: 0.10rem;
+    }
+    .chengshixuanze{
+        font-size: 0.12rem;
+        color: #fff;
+        line-height: 0.30rem;
+        opacity: 1;
+    }
+    #lunbotu{
+        height:2.10rem;
+        width: 26.25rem;
+        position: absolute;
+        transition: all 1s;
+    }
+    #lunbotu li{
+        float: left;
+    }
+        .lunbotu_img{
+            width: 3.75rem;
+            height: 2.10rem;
+        }
+    #page{
+        position: absolute;
+        bottom:0.2rem;
+        right: 0.1rem;
+        padding: 0.03rem 0.05rem;
+        z-index: 1;
+    }
+    #page li{
+        width: 0.04rem;
+        height: 0.04rem;
+        border: 0.01rem solid #fff;
+        border-radius:50% ;
+        float: left;
+        margin-right:0.05rem; 
+    }
+nav{
+    width: 100%;
+    height:0.5rem;
+    position: fixed;
+    top:2.10rem;
+    background: #fff;
+    border-bottom:0.01rem solid f6f6f6;
+    display: flex;
+    justify-content: space-around;
+}
+    .nav_txt{
+        width: 0.7rem;
+        height:0.48rem;
+        line-height:0.48rem;
+        border-bottom: 0.02rem solid red;
+        font-size: 0.15rem;
+        text-align: center;
+    }
+    .nav_txt:nth-of-type(2){
+        border-bottom:0;
+    }
+section{
+    width: 100%;
+    position: fixed;
+    top:2.60rem;
+    bottom:0.6rem;
+    overflow: auto;
+}
+    #case_left,#case_right{
+        width: 100%;
+        min-height: 1.3rem;
+    }
+    #case_right{
+        display: none;
+        background: #f6f6f6;
+    }
+        .case_section{
+            width: 100%;
+            height: 0.94rem;
+            padding:0.15rem 0;
+            border-bottom:0.01rem solid #f6f6f6;
+            display: flex;
+        }
+            .case_img{
+                width: 0.66rem;
+                height:0.90rem;
+                margin-left:0.15rem; 
+                float: left;
+            }
+            .case_txt{
+                float: left;
+                width: 100%;
+                padding: 0 0.1rem;
+                height: 0.90rem;
+            }
+                .case_nameTxt{
+                    height: 0.23rem;
+                    line-height: 0.23rem;
+                }
+                    .case_nameTxt a{
+                        font-weight: 600;
+                        color: #000;
+                    }
+                    .case_nameTxt_2D{
+                        background: #d2d6dc;
+                        margin-left: 0.03rem;
+                        text-align: center;
+                        padding:0 0.05rem;
+                        border-radius:0.02rem;  
+                        font-weight: 100;
+                    }
+                .case_pingfen{
+                    height: 0.23rem;
+                    line-height: 0.23rem;
+                }
+                .case_pingfen em{
+                    font-style: normal;
+                    color: orange;
+                    margin-left:0.03rem; 
+                }
+                .case_yanyuan{
+                    width: 2.2rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    height: 0.23rem;
+                    line-height: 0.23rem;
+                }
+                .case_yanyuan a{
+                    color: #797d82;
+                }
+                .case_time{
+                    height: 0.22rem;
+                    line-height: 0.22rem;
+                }
+                .case_time a{
+                    color: #797d82;
+                }
+        .goupiao{
+            margin-right:0.1rem ;
+            width: 100%;
+            height: 0.24rem;
+            border:0.01rem solid #ffc3a8;
+            font-size:0.12rem; 
+            text-align: center;
+            line-height: 0.24rem;
+        }
+        .goupiao a{
+            color: orange;
+        }
+
+
+

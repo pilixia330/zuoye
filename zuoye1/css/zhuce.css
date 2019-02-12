@@ -1,0 +1,151 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+
+header{
+    width: 100%;
+    height: 58px;
+    border-bottom: 2px solid red;
+}
+    #head{
+        width: 1000px;
+        height: 58px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    #reg_log{
+        width: 230px;
+        height: 50px;
+        margin-top:4px; 
+    }
+
+section{
+    width: 100%;
+    height: 387px;
+    border-bottom: 1px solid #999;
+}
+    #main_wrap{
+        width: 1000px;
+        height: 387px;
+        margin:0 auto;
+    }
+        #main{
+            width: 530px;
+            height: 349px;
+            padding-top:38px; 
+        }
+            #main_center1,#main_center2,#main_center3,#main_center4,#main_center5,#main_center6{
+                width: 530px;
+                height: 40px;
+                position: relative;
+                margin-bottom:5px; 
+            }
+                #tel_txt,#duanxin_txt,#pass_txt,#qrpass_txt{
+                    float: left;
+                    width: 100px;
+                    height: 36px;
+                    line-height: 36px;
+                    text-align: right;
+                    line-height: 36px;
+                    margin-right:10px; 
+                }
+                #tel_inp,#duanxin_inp,#pass_inp,#qrpass_inp{
+                    float: left;
+                    border:1px solid #aaa;
+                    width: 258px;
+                    height: 34px;
+                }
+                .tel_tishi{
+                    position: absolute;
+                    top: 0px;right: 0;
+                    width: 150px;
+                    height: 36px;
+                    background: url(../img/zctishi.jpg)no-repeat left;
+                    font-size:12px;
+                    line-height: 36px;
+                    text-indent: 20px; 
+                    display: none;
+                }
+                .duihao{
+                    position: absolute;
+                    top: 10px;right:132px;
+                    width: 17px;
+                    height: 17px;
+                    display: none;
+                }
+            #yanzhen{
+                float: left;
+                width: 138px;
+                height: 38px;
+                border: 1px solid #e3e3e3;
+                border-radius: 2px;
+                font-size:14px;
+                background: #f1f1f1 ;
+                line-height: 38px;
+                margin-left: 110px;
+                text-align: center;
+            }
+            #yan_num{
+                float: left;
+                height: 38px;
+                width: 60px;
+                border: 1px solid #e3e3e3;
+                margin-left:20px; 
+                line-height: 38px;
+                text-align: center;
+            }
+            #main_center5{
+                width: 420px;
+                padding-left:110px; 
+                padding-top:10px; 
+                height: 30px;
+            }
+            .qingdu{
+                width: 86px;
+                height: 20px;
+                background: #eee;  
+                text-align: center;
+                font-size:14px;
+                color: #fff;
+                margin-right:5px;
+                float: left;  
+            }
+            #queren{
+                display: block;
+                width: 200px;
+                height: 34px;
+                background: #e53035;
+                color: #fff;
+                text-align: center;
+                line-height: 34px;
+                border-radius:5px;
+                margin-left:110px;  
+            }
+            #xieyi{
+                width: 200px;
+                height: 20px; 
+                color: #e53035;
+                line-height: 20px;
+                font-size:12px;
+                margin-left:110px;  
+            }
+
+
+            footer{
+                width: 100%;
+                height: 80px;
+            }
+                #foot{
+                    width: 1000px;
+                    height: 80px;
+                    margin: 0 auto;
+                    font-size:12px;
+                    text-align: center;
+                    color: #666;
+                    line-height: 80px; 
+                }
